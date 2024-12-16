@@ -26,6 +26,7 @@ import com.example.p7meeting9.ui.viewmodel.PenyediaViewModel
 fun HomeMhsView(
     modifier: Modifier = Modifier,
     viewModel: HomeMhsViewModel = viewModel(factory = PenyediaViewModel.Factory),
+    onAddMhs: () -> Unit,
     onBack: () -> Unit = {},
     onAddClick: () -> Unit = {},
     onDetailClick: (String) -> Unit = {}
